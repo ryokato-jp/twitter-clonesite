@@ -1,0 +1,13 @@
+.heart {
+  width: 40px;
+  height: 40px;
+  background: url(http://nelog.jp/wp-content/uploads/2016/03/heart_animation.png) no-repeat;
+  background-position: 0 0;
+  cursor: pointer;
+  background-size: 2900%;
+}
+.heart:hover {
+  background-position: -1120px 0;
+  -webkit-transition: background 1s steps(28);
+  transition: background 1s steps(28);
+}
