@@ -23,7 +23,8 @@ class TweetController extends Controller
 
 
 
-    public function update(Request $request){
+    public function update(Request $request)
+    {
 
     //$id = Auth::id()
 
@@ -52,6 +53,8 @@ class TweetController extends Controller
 
     }
 
-
-
 }
+
+
+
+

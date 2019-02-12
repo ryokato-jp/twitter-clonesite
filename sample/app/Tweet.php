@@ -7,7 +7,8 @@ use Illuminate\Support\Facades\Auth;
 
 class Tweet extends Model
 {
-    public static function getTlTweet(){
+    public static function getTlTweet()
+    {
 
     	
 
@@ -42,7 +43,7 @@ class Tweet extends Model
     	
     	return $tweets;
     	
-    	}
+    }
 
 
     	// [19]
